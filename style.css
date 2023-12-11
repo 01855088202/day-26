@@ -1,0 +1,28 @@
+.grid-container{
+    gap: 10px;
+    background-color: brown;
+    padding: 10px;
+    display: grid;
+    height: 2
+    50px;
+}
+.grid-item{
+    font-size: 30px;
+    color:azure;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+.item-1{
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+.item-2{
+    grid-column: 3;
+    grid-row: 1 /span 2;
+
+}
+.item-5{
+    grid-row: 3;
+    grid-column: 1 / span 3;
+}
